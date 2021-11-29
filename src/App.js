@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 const App = () => {
   const [newTodo, setNewTodo] = useState({name:"",age:0});
   const [todos, setTodos] = useState([]);
